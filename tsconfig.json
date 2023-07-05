@@ -1,0 +1,25 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "paths": {
+            "@phenomenon-hooks/use-debounce": ["./packages/useDebounce/src"],
+            "@phenomenon-hooks/use-debounced-state": ["./packages/useDebouncedState/src"],
+            "@phenomenon-hooks/use-document-lock-scroll-y": ["./packages/useDocumentLockScrollY/src"],
+            "@phenomenon-hooks/use-get-bounding-client-rect": ["./packages/useGetBoundingClientRect/src"],
+            "@phenomenon-hooks/use-is-client": ["./packages/useIsClient/src"],
+            "@phenomenon-hooks/use-is-first-render": ["./packages/useIsFirstRender/src"],
+            "@phenomenon-hooks/use-is-mounted": ["./packages/useIsMounted/src"],
+            "@phenomenon-hooks/use-is-overflowing": ["./packages/useIsOverflowing/src"],
+            "@phenomenon-hooks/use-local-storage": ["./packages/useLocalStorage/src"],
+            "@phenomenon-hooks/use-media-query": ["./packages/useMediaQuery/src"],
+            "@phenomenon-hooks/use-outside-click": ["./packages/useOutsideClick/src"],
+            "@phenomenon-hooks/use-previous": ["./packages/usePrevious/src"],
+            "@phenomenon-hooks/use-scrollbar-width": ["./packages/useScrollbarWidth/src"],
+            "@phenomenon-hooks/use-set-class-name-later": ["./packages/useSetClassNameLater/src"],
+            "@phenomenon-hooks/use-set-global-custom-property": ["./packages/useSetGlobalCustomProperty/src"],
+            "@phenomenon-hooks/use-smooth-scroll": ["./packages/useSmoothScroll/src"],
+            "@phenomenon-hooks/use-toggle": ["./packages/useToggle/src"],
+            "@phenomenon-hooks/use-why-did-you-update": ["./packages/useWhyDidYouUpdate/src"]
+        }
+    }
+}
