@@ -1,2 +1,2 @@
-export { Default } from './Default';
+export { default as Default } from './Default';
 export type { DefaultProps } from './types';

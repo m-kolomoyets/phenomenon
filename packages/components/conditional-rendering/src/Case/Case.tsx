@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import type { CaseProps } from './types';
 
-export const Case: React.FC<CaseProps> = ({ children }) => {
+const Case: React.FC<CaseProps> = ({ children }) => {
     return children;
 };
+
+export default memo(Case);
