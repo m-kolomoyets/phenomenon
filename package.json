@@ -1,10 +1,11 @@
 {
     "private": true,
     "name": "phenomenon",
-    "version": "v0.0.2",
+    "version": "v0.1.3",
     "license": "MIT",
     "workspaces": [
-        "packages/hooks/*"
+        "packages/hooks/*",
+        "packages/components/*"
     ],
     "scripts": {
         "lint": "eslint packages --ext .js,.ts,.tsx",
@@ -66,7 +67,8 @@
         "typescript": "^4.6.3"
     },
     "resolutions": {
-        "chokidar": "3.4.3"
+        "chokidar": "3.4.3",
+        "typescript": "~4.7"
     },
     "engines": {
         "node": ">=12",

@@ -2,6 +2,7 @@
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
         "paths": {
+            // HOOKS
             "@phenomenon-hooks/use-debounce": ["./packages/useDebounce/src"],
             "@phenomenon-hooks/use-debounced-state": ["./packages/useDebouncedState/src"],
             "@phenomenon-hooks/use-document-lock-scroll-y": ["./packages/useDocumentLockScrollY/src"],
@@ -19,7 +20,9 @@
             "@phenomenon-hooks/use-set-global-custom-property": ["./packages/useSetGlobalCustomProperty/src"],
             "@phenomenon-hooks/use-smooth-scroll": ["./packages/useSmoothScroll/src"],
             "@phenomenon-hooks/use-toggle": ["./packages/useToggle/src"],
-            "@phenomenon-hooks/use-why-did-you-update": ["./packages/useWhyDidYouUpdate/src"]
+            "@phenomenon-hooks/use-why-did-you-update": ["./packages/useWhyDidYouUpdate/src"],
+            // COMPONENTS
+            "@phenomenon-components/conditional-rendering": ["./packages/conditional-rendering/src"]
         }
     }
 }
